@@ -1,0 +1,477 @@
+
+
+.Contact-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* position: relative; */
+
+}
+
+.Contact-section1-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 8vh; */
+    background-color: #2b8de9;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    height: 15vh;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.Contact-section1-div1 h1{
+    font-size: 3.5vh;
+    
+}
+
+.Contact-section1-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 3vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section1-div2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 3vh;
+    /* top: 3vh; */
+}
+
+.Contact-section1-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 98%;
+    border-radius: 25px;
+    padding: 2vh;
+    gap: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px ;
+    
+    
+}
+
+.Contact-section1-card1-span{
+    font-size: 3vh;
+    height: fit-content;
+    width: 100%;
+}
+
+.Contact-section1-card1-icon{
+    color: #2b8de9;
+    height: auto;
+    width: 60px;
+}
+
+.Contact-section1-card-p{
+    height: fit-content;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+}
+
+
+.Contact-section1-whatsapp-link{
+    font-size: 3vh;
+    color: #000;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+
+.Contact-section1-whatsapp-icon{
+    background-color: #2b8de9;
+    color: #fff;
+    height: auto;
+    width: 60px;
+    border-radius: 8px;
+    transition: transform .5s ease-in-out;
+}
+
+.Contact-section1-whatsapp-icon:hover{
+    background-color: #28a745;
+    transform: scale(1.1); 
+}
+
+.Contact-section1-phone-icon{
+    color: #2b8de9;
+    height: auto;
+    width: 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px ;
+}
+
+
+.Contact-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 2vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section2-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+}
+
+.Contact-section2-address h2{
+    color: #2b8de9;
+    text-decoration: underline;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px ;
+}
+
+
+
+.Contact-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 1vh;
+    background-color: #f5f5f5;
+
+}
+
+.Contact-section3 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 50%;
+}
+
+.Contact-section3-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 0.5vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 2px ;
+}
+
+.Contact-section3-form-label{
+    font-size: 2.3vh;
+}
+
+.Contact-section3-form-input{
+    height: 8vh;
+    width: 100%;
+    border-radius: 10px;
+    border: #2b8de9 1px solid;
+}
+
+.Contact-section3-form-textarea{
+    height: 13vh;
+    width: 100%;
+    border-radius: 10px;
+    border: #2b8de9 1px solid;
+ 
+}
+
+.Contact-section3-form-button{
+    height: 8vh;
+    width: 100%;
+    color: #fff;
+    font-size: 2.8vh;
+    border-radius: 10px;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px ;
+    border: #2b8de9 1px solid;
+    background-color: #2b8de9;
+    cursor: pointer;
+}
+
+
+.Contact-section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 1.5vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section4 iframe{
+    height: 20vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    
+    
+
+.Contact-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* position: relative; */
+
+}
+
+.Contact-section1-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 8vh; */
+    background-color: #2b8de9;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    height: 15vh;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.Contact-section1-div1 h1{
+    font-size: 5vh;
+    
+}
+
+.Contact-section1-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 3vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section1-div2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    gap: 3vh;
+    /* top: 3vh; */
+}
+
+.Contact-section1-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+    border-radius: 25px;
+    padding: 0.5vh;
+    gap: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px ;
+    
+    
+}
+
+.Contact-section1-card1-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    height: fit-content;
+    width: 100%;
+}
+
+.Contact-section1-card1-icon{
+    color: #2b8de9;
+    height: auto;
+    width: 60px;
+}
+
+.Contact-section1-card-p{
+    height: fit-content;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+
+
+.Contact-section1-whatsapp-link{
+    font-size: x-large;
+    color: #000;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+
+.Contact-section1-whatsapp-icon{
+    background-color: #2b8de9;
+    color: #fff;
+    height: auto;
+    width: 60px;
+    border-radius: 8px;
+    transition: transform .5s ease-in-out;
+}
+
+.Contact-section1-whatsapp-icon:hover{
+    background-color: #28a745;
+    transform: scale(1.1); 
+}
+
+.Contact-section1-phone-icon{
+    color: #2b8de9;
+    height: auto;
+    width: 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px ;
+}
+
+
+.Contact-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 2vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section2-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+}
+
+.Contact-section2-address h2{
+    color: #2b8de9;
+    text-decoration: underline;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px ;
+}
+
+
+
+.Contact-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 1vh;
+
+}
+
+.Contact-section3 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 50%;
+    padding: 5vh;
+}
+
+.Contact-section3-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    gap: 0.5vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 2px ;
+}
+
+.Contact-section3-form-label{
+    font-size: x-large
+}
+
+.Contact-section3-form-input{
+    height: 10vh;
+    width: 100%;
+    border-radius: 10px;
+    border: #2b8de9 1px solid;
+}
+
+.Contact-section3-form-textarea{
+    height: 13vh;
+    width: 100%;
+    border-radius: 10px;
+    border: #2b8de9 1px solid;
+ 
+}
+
+.Contact-section3-form-button{
+    height: 8vh;
+    width: 100%;
+    color: #fff;
+    font-size: 2.8vh;
+    border-radius: 10px;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px ;
+    border: #2b8de9 1px solid;
+    background-color: #2b8de9;
+    cursor: pointer;
+}
+
+
+.Contact-section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    padding: 1.5vh;
+    background-color: #f5f5f5;
+}
+
+.Contact-section4 iframe{
+    height: 40vh;
+    width: 70%;
+    border-radius: 10px;
+}
+
+}
