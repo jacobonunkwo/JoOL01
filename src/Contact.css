@@ -175,6 +175,7 @@
     gap: 0.5vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 2px ;
+    padding: 1vh;
 }
 
 .Contact-section3-form-label{
@@ -424,6 +425,7 @@
     gap: 0.5vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 2px ;
+    padding: 2vh;
 }
 
 .Contact-section3-form-label{
