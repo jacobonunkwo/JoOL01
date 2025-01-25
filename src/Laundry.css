@@ -9,7 +9,7 @@
     background-color: #e1f5fcc2;
     height: 230vh;
     width: 100%;
-
+    
 }
 
 .laundry-services-div1{
@@ -42,7 +42,7 @@
     font-size: 1.8vh;
     color: #000;
     text-align: center;
-
+    
 }
 
 .laundry-services-div2-div{
@@ -56,6 +56,8 @@
     position: absolute;
     z-index: 10;
     top: 30vh;
+    padding: 0.5vh;
+
 }
 
 .laundry-services-div2-img-div{
@@ -192,6 +194,7 @@
     height: fit-content;
     width: 100%;
     margin-top: 5vh;
+    padding: 2vh;
 
 }
 
