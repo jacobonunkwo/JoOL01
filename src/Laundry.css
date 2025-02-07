@@ -7,7 +7,7 @@
     flex-direction: column;
     height: fit-content;
     background-color: #e1f5fcc2;
-    height: 230vh;
+    height: auto;
     width: 100%;
     
 }
@@ -17,18 +17,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
+    height: 38vh;
     width: 100%;
     background-color: #2b8de9;
     color: white;
     position: relative;
-    padding-bottom: 8vh;
+    padding-bottom: 2vh;
     /* padding: 1vh; */
 
 
 }
 .laundry-services-div1-h1{
-    font-size: larger;
+    font-size: x-large;
     margin: 0;
     padding: 0;
     text-shadow: rgba( 0, 0, 0, 0.5) 0px 4px 6px;
@@ -39,7 +39,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 165vh;
+    height: 155vh;
     width: 100%;
     font-size: 1.8vh;
     color: #000;
@@ -53,7 +53,7 @@
     align-items: center;
     flex-direction: column;
     height: 160vh;
-    width: 90%;
+    width: 85%;
     gap: 0;
     position: absolute;
     z-index: 10;
@@ -93,7 +93,7 @@
     font-size: 1.6vh;
     font-weight: 500;
     height: 16.3vh;
-    width: 90%;
+    width: 85%;
 }
 
 .laundry-services-div3{
@@ -113,13 +113,13 @@
     margin: 0;
     padding: 0;
     height: 7vh;
-    width: 90%;
+    width: 80%;
     text-shadow: rgba( 0, 0, 0, 0.3) 0px 4px 6px;
 }
 .laundry-services-p{
     font-size: 1.7vh;
     height: 45vh;
-    width: 90%;
+    width: 85%;
 }
 
 .laundry-mid-contact-section{
@@ -206,23 +206,25 @@
     align-items: center;
     flex-direction: column;
     height: 33vh;
-    width: 95%;
+    width: 85%;
     margin-bottom: 3.5vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 6px;
+    transition: transform 1s;
 }
+.image-section-div:hover{
+    transform: scale(1.1);
+}
+
 
 .image-section-img{
     border-radius: 10px;
 
     height: 27vh;
     width: 100%;
-    transition: transform 1s;
+    
 }
 
-.image-section-img:hover{
-    transform: scale(1.1);
-}
 
 .image-section-span{
     display: flex;
