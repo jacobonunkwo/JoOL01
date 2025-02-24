@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavBar from './NavBar';
 import "./About.css"
 import { IoCall } from 'react-icons/io5';
@@ -9,6 +9,14 @@ import Footer from './Footer';
 
 
 function About(props) {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      window.location.href = `mailto:jacobonunkwo@gmail.com?subject=Message from ${name}&body=${message}`;
+    };
    
     return (
         <div className='about-body'>
@@ -70,15 +78,16 @@ function About(props) {
                 
                 <div className='about-form-div'>
                     
-                    <form action="mailto:jacobonunkwo@gmail.com" method="post" enctype="text/plain">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" placeholder='Your Name' required/>
+                
+                    <form onSubmit={handleSubmit} encType="text/plain">
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" value={name} onChange={(e) => setName(e.target.value)} required/>
 
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" placeholder='example@youremail.com' required/>
+                        <label htmlFor="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@youremail.com" value={email} onChange={(e) => setEmail(e.target.value)} required/>
 
-                        <label for="message">Message:</label>
-                        <textarea name="message" placeholder='Your Message' required></textarea>
+                        <label htmlFor="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
 
                         <button type="submit">Send Message</button>
                     </form>
