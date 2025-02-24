@@ -183,6 +183,11 @@
 }
 
 .Contact-section3-form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vw;
+    font-size: medium;
     height: 8vh;
     width: 100%;
     border-radius: 10px;
@@ -190,6 +195,9 @@
 }
 
 .Contact-section3-form-textarea{
+    padding-left: 5vw;
+    font-size: medium;
+    padding-top: 2vh;
     height: 13vh;
     width: 100%;
     border-radius: 10px;
@@ -435,6 +443,11 @@
 }
 
 .Contact-section3-form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5vh;
+    font-size: large;
     height: 10vh;
     width: 100%;
     border-radius: 10px;
@@ -442,6 +455,9 @@
 }
 
 .Contact-section3-form-textarea{
+    padding-left: 5vh;
+    font-size: medium;
+    padding-top: 2vw;
     height: 13vh;
     width: 100%;
     border-radius: 10px;
