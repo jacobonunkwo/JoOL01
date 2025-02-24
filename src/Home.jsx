@@ -77,8 +77,7 @@ function Home(props) {
         < div className='home-body'> 
             <NavBar />
 
-            <div className="top-space"></div>
-
+           
             <div 
                 className="slider-container"
                 style={{

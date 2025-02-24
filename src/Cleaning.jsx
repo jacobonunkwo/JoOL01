@@ -13,8 +13,7 @@ function Cleaning(props) {
         <NavBar />
  
 
-        <div className="top-space"></div>
-
+        
         <section className="Cleaning-services-section">
             <div className='Cleaning-services-div1'>
                 <h1 className='Cleaning-services-div1-h1'>Residential & Commercial</h1>

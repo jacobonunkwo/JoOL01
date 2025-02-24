@@ -13,8 +13,7 @@ function NavBar(props) {
                 <div className="logo-div">
                     <img src="/WhatsApp Image 2025-01-17 at 00.00.06_4ca9787e.jpg" alt="" />
                     <span>
-                        <span className='span-in-span' >JoOL's LAUNDRY & </span>
-                        <span className='span-in-span' >CLEANING SERVICES LTD</span>
+                        <span className='span-in-span' >JoOL's</span>
                     </span>
                 </div>
 

@@ -23,8 +23,7 @@ function About(props) {
      
             <NavBar/>
 
-            <div className="top-space"></div>
-
+            
             <section className='about-section1'>
 
                <div className='about-section1-div1'>

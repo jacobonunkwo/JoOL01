@@ -275,7 +275,7 @@
     background-color: #2b8de9;
     color: #fff;
     text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     /* position: absolute; */
 }
@@ -302,7 +302,7 @@
     align-items: center;
     flex-direction: row;
     height: auto;
-    width: 100%;
+    width: 85%;
     gap: 3vh;
     /* top: 3vh; */
 }

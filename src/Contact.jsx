@@ -17,14 +17,8 @@ function Contact(props) {
         };
     return (
         <>
-        <header>
-            <NavBar/>
-        </header>
+        <NavBar/>
         
-        <section className='top-space'>
-
-        </section>
-
         <section className='Contact-section1'> 
 
             <div className='Contact-section1-div1'>

@@ -9,8 +9,7 @@ function Laundry(props) {
     return (
         <>
             <NavBar/>
-            <div className="top-space"></div>
-            
+                        
             <section className="laundry-services-section">
                 <div className='laundry-services-div1'>
                     <h1 className='laundry-services-div1-h1'>Entrust Your Laundry Needs to</h1>

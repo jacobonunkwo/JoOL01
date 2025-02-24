@@ -12,10 +12,11 @@ nav{
   height: 17vh;
   width: 100%;
   background-color: #f5f5f5d2;
-  position: fixed;
+  position: sticky;
+  top: 0%;
   z-index: 1000;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  gap: 2vw;
+  gap: 8vw;
 }
 
 nav div{
@@ -24,7 +25,8 @@ nav div{
   align-items: center;
   flex-direction: row;
   height: 15vh;
-  width: 30%;
+  width: fit-content;
+  gap: 2vh;
   /* background-color: #333; */
 }
 nav div img{
@@ -41,8 +43,8 @@ nav div span{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 14.5vh;
-  width: 75%;
+  height: auto;
+  width: fit-content;
   /* margin-top: 5%; */
   /* padding-top: 3vh; */
 }
@@ -50,7 +52,7 @@ nav div span{
   font-weight: 900;
   height: fit-content;
   width: 100%;
-  font-size: 1.8vw;
+  font-size: xx-large;
   margin: 0%;
   padding: 0%;
   color: #0d8f8f;
@@ -133,9 +135,14 @@ nav ul li .navbar-link:hover{
 }
 
 .slider-content {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: #fff;
     animation: textPopIn 1.5s ease-out;
+    height: auto;
+    width: 80%;
 }
 
 @keyframes textPopIn {
@@ -151,13 +158,15 @@ nav ul li .navbar-link:hover{
 
 
 .slider-content h1{
-    font-size: 2.5rem; 
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+   
+    text-align: center;
+    font-size: xx-large; 
     /* text-transform: uppercase; */
     letter-spacing: 1px;
     text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.8);
     margin: 10px 0;
+    height: auto;
+    width: fit-content;
 }
 
 
@@ -216,7 +225,7 @@ nav ul li .navbar-link:hover{
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: 52%;
+    width: 50%;
     /* background-color: #000; */
 }
 
@@ -358,7 +367,7 @@ nav ul li .navbar-link:hover{
     flex-direction: row;
     gap: 20px;
     /* padding: ; */
-    width: 95%;
+    width: 85%;
     height: fit-content;
     background-color: transparent;
   }
@@ -411,6 +420,7 @@ nav ul li .navbar-link:hover{
     gap: 10px;
     margin-top: 20px;
     padding: 8vh;
+    width: 90%;
 
   }
   
@@ -519,16 +529,17 @@ footer a{
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 15vh;
     width: 100%;
     flex-direction: row;
-    position: fixed;
+    position: sticky;
+    top: 0%;
     background-color: #f5f5f5d2;
     /* background-color: #333;  */
     z-index: 1000;
-
+    gap: 8vh;
 
 }
 
@@ -538,8 +549,8 @@ nav div{
     align-items: center;
     flex-direction: row;
     background-color: transparent;
-    height: 100%;
-    width: 70%;
+    height: auto;
+    width: fit-content;
     margin: 0%;
     padding: 0%;
 }
@@ -558,17 +569,18 @@ nav div span{
     align-items: center;
     flex-direction: column;
     height: fit-content;
-    width: 80%;
+    width: fit-content;
     margin: 0%;
     padding: 0%;
     padding-top: 5%;
+    border-bottom: #0000000e 1px solid;
 }
 .span-in-span{
-    font-size: 1.6vh;
-    font-weight: 500;
+    font-size: x-large;
+    font-weight: 800;
     color: #0d8f8f;
     height: fit-content;
-    width: 100%;
+    width: fit-content;
     margin: 0%;
     padding: 0%;
     text-shadow: #2b8de9 1px 1px 0px;
@@ -596,7 +608,7 @@ nav ul.open{
 nav ul li{
     height: 3.5vh;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: larger;
     font-weight: 700;
     cursor: pointer;
     border-bottom: lightgray solid 1px;
@@ -624,9 +636,9 @@ nav ul li .navbar-link:hover{
 .menu-icon{
     display: flex;
     color: #000;
-    margin-right: 5%;
+    margin-right: 0;
     cursor: pointer;
-    font-size: 3.5vh;
+    font-size: 5vh;
 }
 
 .slider-container {
@@ -634,13 +646,40 @@ nav ul li .navbar-link:hover{
     }
 
     
-    .slider-content h1 {
-        font-size: 1.8rem; 
-    }
-
     .slider-content {
-        padding: 4vh;
-    }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #fff;
+      animation: textPopIn 1.5s ease-out;
+      height: auto;
+      width: 93%;
+  }
+  
+  @keyframes textPopIn {
+      0% {
+          transform: scale(0.8);
+          opacity: 0;
+      }
+      100% {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+  
+  
+  .slider-content h1{
+     
+      text-align: center;
+      font-size: x-large; 
+      /* text-transform: uppercase; */
+      letter-spacing: 1px;
+      text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.8);
+      margin: 0;
+      height: auto;
+      width: fit-content;
+  }
 
 
     
@@ -762,7 +801,7 @@ nav ul li .navbar-link:hover{
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: large;
     border-radius: 25px;
     display: inline-flex;
     align-items: center;
