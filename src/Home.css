@@ -545,7 +545,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     flex-direction: row;
     position: sticky;
