@@ -104,7 +104,16 @@ nav ul li .navbar-link:hover{
   font-size: 3.5vh;
 }
 
+.slider-section{
+  height: 80vh;
+  width: 100%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("/socks-5379808_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
+}
 
 
 .slider-container {

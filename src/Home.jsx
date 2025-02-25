@@ -78,19 +78,21 @@ function Home(props) {
             <NavBar />
 
            
-            <div 
-                className="slider-container"
-                style={{
-                    backgroundImage: `url(${images[currentImageIndex]})`, 
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}  
-            >
-                <div className="slider-content">
-                    <h1>Experience the Ultimate Clean for Your Home</h1>
-                    <h1>and Laundry, Delivered by Experts</h1>
+            <section className='slider-section'>
+                <div 
+                    className="slider-container"
+                    style={{
+                        backgroundImage: `url(${images[currentImageIndex]})`, 
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}  
+                >
+                    <div className="slider-content">
+                        <h1>Experience the Ultimate Clean for Your Home</h1>
+                        <h1>and Laundry, Delivered by Experts</h1>
+                    </div>
                 </div>
-            </div>
+            </section>
 
             <section className={`solution-section ${isSolutionVisible ? 'visible' : ''}`}>
                 <div className="solution-text-div">
