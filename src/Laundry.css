@@ -231,7 +231,7 @@
     margin-bottom: 3.5vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 6px;
-    transition: transform 1s;
+    transition: transform 2s;
 }
 .image-section-div:hover{
     transform: scale(1.1);
@@ -527,7 +527,7 @@
 
     height: 27vh;
     width: 100%;
-    transition: transform 1s;
+    transition: transform 3s;
 }
 
 .image-section-img:hover{
