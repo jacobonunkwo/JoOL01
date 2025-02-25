@@ -8,8 +8,7 @@ import Footer from './Footer';
 function Cleaning(props) {
       
   return (
-    <>
-
+    <div className='cleaning-body'>
         <NavBar />
  
 
@@ -22,28 +21,32 @@ function Cleaning(props) {
 
             <div className='Cleaning-services-div2'>
                 <div className='Cleaning-services-div2-div'>
-                    <div className='Cleaning-services-div2-img-div'>
-                        <img className='Cleaning-services-div2-img' src="/image copy 6.png" alt="" />
-                        <h2 className='Cleaning-services-div2-h2'>Living Room</h2>
-                        <p className='Cleaning-services-div2-p'>We transform your living room into a sparkling and inviting space, creating a warm and welcoming atmosphere for both your family and guests.</p>
+                    <div className='Cleaning-services-div2-img-div-box1'>
+                        <div className='Cleaning-services-div2-img-div'>
+                            <img className='Cleaning-services-div2-img' src="/image copy 6.png" alt="" />
+                            <h2 className='Cleaning-services-div2-h2'>Living Room</h2>
+                            <p className='Cleaning-services-div2-p'>We transform your living room into a sparkling and inviting space, creating a warm and welcoming atmosphere for both your family and guests.</p>
+                        </div>
+
+                        <div className='Cleaning-services-div2-img-div'>
+                            <img className='Cleaning-services-div2-img' src="/image copy 7.png" alt="" />
+                            <h2 className='Cleaning-services-div2-h2'>Kitchen cleaning</h2>
+                            <p className='Cleaning-services-div2-p'>A spotless kitchen is essential for a healthy home. Let us help you achieve a pristine, spotless kitchen.</p>
+                        </div>
                     </div>
 
-                    <div className='Cleaning-services-div2-img-div'>
-                        <img className='Cleaning-services-div2-img' src="/image copy 7.png" alt="" />
-                        <h2 className='Cleaning-services-div2-h2'>Kitchen cleaning</h2>
-                        <p className='Cleaning-services-div2-p'>A spotless kitchen is essential for a healthy home. Let us help you achieve a pristine, spotless kitchen.</p>
-                    </div>
+                    <div className='Cleaning-services-div2-img-div-box2'>
+                        <div className='Cleaning-services-div2-img-div'>
+                            <img className='Cleaning-services-div2-img' src="/image copy 8.png" alt="" />
+                            <h2 className='Cleaning-services-div2-h2'>Bathroom Cleaning</h2>
+                            <p className='Cleaning-services-div2-p'>Your bathroom requires professional attention to ensure a clean and safe environment, protecting your family from germs and bacteria.</p>
+                        </div>
 
-                    <div className='Cleaning-services-div2-img-div'>
-                        <img className='Cleaning-services-div2-img' src="/image copy 8.png" alt="" />
-                        <h2 className='Cleaning-services-div2-h2'>Bathroom Cleaning</h2>
-                        <p className='Cleaning-services-div2-p'>Your bathroom requires professional attention to ensure a clean and safe environment, protecting your family from germs and bacteria.</p>
-                    </div>
-
-                    <div className='Cleaning-services-div2-img-div'>
-                        <img className='Cleaning-services-div2-img' src="/image copy 9.png" alt="" />
-                        <h2 className='Cleaning-services-div2-h2'>Janitorial Cleaning</h2>
-                        <p className='Cleaning-services-div2-p'>Trust us to provide a thorough deep cleaning, ensuring a safe and healthy environment for both your home and office.</p>
+                        <div className='Cleaning-services-div2-img-div'>
+                            <img className='Cleaning-services-div2-img' src="/image copy 9.png" alt="" />
+                            <h2 className='Cleaning-services-div2-h2'>Janitorial Cleaning</h2>
+                            <p className='Cleaning-services-div2-p'>Trust us to provide a thorough deep cleaning, ensuring a safe and healthy environment for both your home and office.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,8 +112,9 @@ function Cleaning(props) {
         </section>
 
         <Footer/>
-    </>
+    </div>
   );
 }
 
 export default Cleaning;
+        

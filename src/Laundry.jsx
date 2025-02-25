@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 function Laundry(props) {
     return (
-        <>
+        <div className='laundry-body'>
             <NavBar/>
                         
             <section className="laundry-services-section">
@@ -18,28 +18,32 @@ function Laundry(props) {
 
                 <div className='laundry-services-div2'>
                     <div className='laundry-services-div2-div'>
-                        <div className='laundry-services-div2-img-div'>
-                            <img className='laundry-services-div2-img' src="/1b4b9177c57ded9ca2185314a40efd79.jpg" alt="" />
-                            <h2 className='laundry-services-div2-h2'>Laundry Service</h2>
-                            <p className='laundry-services-div2-p'>Comprehensive washing, drying, and folding services for everyday clothing. Expert cleaning for delicate fabrics and garments. We treat your most cherished pieces with the utmost care and attention to detail.</p>
+                        <div className='laundry-services-div2-img-div-box1'>
+                            <div className='laundry-services-div2-img-div'>
+                                <img className='laundry-services-div2-img' src="/1b4b9177c57ded9ca2185314a40efd79.jpg" alt="" />
+                                <h2 className='laundry-services-div2-h2'>Laundry Service</h2>
+                                <p className='laundry-services-div2-p'>Comprehensive washing, drying, and folding services for everyday clothing. Expert cleaning for delicate fabrics and garments. We treat your most cherished pieces with the utmost care and attention to detail.</p>
+                            </div>
+
+                            <div className='laundry-services-div2-img-div'>
+                                <img className='laundry-services-div2-img' src="/fa59b3d7fde3a3ef15a2183a966752be.jpg" alt="" />
+                                <h2 className='laundry-services-div2-h2'>Dry Cleaning</h2>
+                                <p className='laundry-services-div2-p'>Specialized dry cleaning services for suits, dresses, and other delicate garments. Maintain a polished appearance with our expert care.</p>
+                            </div>
                         </div>
 
-                        <div className='laundry-services-div2-img-div'>
-                            <img className='laundry-services-div2-img' src="/fa59b3d7fde3a3ef15a2183a966752be.jpg" alt="" />
-                            <h2 className='laundry-services-div2-h2'>Dry Cleaning</h2>
-                            <p className='laundry-services-div2-p'>Specialized dry cleaning services for suits, dresses, and other delicate garments. Maintain a polished appearance with our expert care.</p>
-                        </div>
+                        <div className='laundry-services-div2-img-div-box2'>
+                            <div className='laundry-services-div2-img-div'>
+                                <img className='laundry-services-div2-img' src="/c809583626fd1f4e85d7fc044e17935e.jpg" alt="" />
+                                <h2 className='laundry-services-div2-h2'>Stain Removal</h2>
+                                <p className='laundry-services-div2-p'>Your ultimate solution for eliminating even the most stubborn stains! Our specialized stain removal services are expertly designed to restore your fabrics to their original brilliance.</p>
+                            </div>
 
-                        <div className='laundry-services-div2-img-div'>
-                            <img className='laundry-services-div2-img' src="/c809583626fd1f4e85d7fc044e17935e.jpg" alt="" />
-                            <h2 className='laundry-services-div2-h2'>Stain Removal</h2>
-                            <p className='laundry-services-div2-p'>Your ultimate solution for eliminating even the most stubborn stains! Our specialized stain removal services are expertly designed to restore your fabrics to their original brilliance.</p>
-                        </div>
-
-                        <div className='laundry-services-div2-img-div'>
-                            <img className='laundry-services-div2-img' src="/56cd87194b55772bf6e0721c3fc3372a.jpg" alt="" />
-                            <h2 className='laundry-services-div2-h2'>Wash/fold/Ironing</h2>
-                            <p className='laundry-services-div2-p'>We excel in professional ironing, comprehensive washing, and meticulous folding. Our skilled team ensures each garment receives precise care, delivering a crisp, polished appearance and a refreshing feel.</p>
+                            <div className='laundry-services-div2-img-div'>
+                                <img className='laundry-services-div2-img' src="/56cd87194b55772bf6e0721c3fc3372a.jpg" alt="" />
+                                <h2 className='laundry-services-div2-h2'>Wash/fold/Ironing</h2>
+                                <p className='laundry-services-div2-p'>We excel in professional ironing, comprehensive washing, and meticulous folding. Our skilled team ensures each garment receives precise care, delivering a crisp, polished appearance and a refreshing feel.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,7 +120,7 @@ function Laundry(props) {
             </section>
             
             <Footer/>
-        </>
+        </div>
     );
 }
 

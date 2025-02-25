@@ -1,4 +1,8 @@
-
+.laundry-body{
+    height: fit-content;
+    width: 100%;
+    background-color: #2b8de9;
+}
 
 .laundry-services-section {
     display: flex;
@@ -17,7 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 45vh;
+    height: 35vh;
     width: 100%;
     background-color: #2b8de9;
     color: white;
@@ -39,9 +43,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 155vh;
+    height: 190vh;
     width: 100%;
-    font-size: 1.8vh;
+    font-size: larger;
     color: #000;
     text-align: center;
     
@@ -52,13 +56,23 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 160vh;
+    height: auto;
     width: 85%;
-    gap: 0;
+    gap: 3vh;
     position: absolute;
     z-index: 10;
-    top: 30vh;
-    padding: 0.5vh;
+    top: 40vh;
+    padding: 0;
+
+}
+
+.laundry-services-div2-img-div-box1, 
+.laundry-services-div2-img-div-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
 
 }
 
@@ -67,33 +81,34 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 38vh;
+    height: auto;
     width: 100%;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    padding: 1vh;
     
 }
 
 .laundry-services-div2-img{
-    height: 16vh;
-    width: 22vh;
+    height: auto;
+    width: 100%;
     /* margin: 1vh; */
     border-radius: 20px;
 
 }
 .laundry-services-div2-h2{
-    font-size: 2.3vh;
+    font-size: larger;
     margin: 0;
     padding: 0;
     height: fit-content;
     width: fit-content;
 }
 .laundry-services-div2-p{
-    font-size: 1.6vh;
+    font-size: medium;
     font-weight: 500;
-    height: 16.3vh;
-    width: 85%;
+    height: auto;
+    width: fit-content;
 }
 
 .laundry-services-div3{
@@ -138,12 +153,16 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+    height: auto;
     width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 10px 0px ;
+    border-radius: 15px;
+    padding: 2vh;
+    gap: 2vh;
 }
 
 .laundry-mid-contact-section-top-text{
-    font-size: 2.5vh;
+    font-size: x-large;
     text-decoration: none;
     color: #fff;
 }
@@ -178,6 +197,7 @@
     color:  #fff;
     height: 7vh;
     width: 7vh;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 10px 0px ;
     transition:  background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
     border-radius: 50%;
 }
@@ -196,6 +216,7 @@
     height: fit-content;
     width: 100%;
     margin-top: 5vh;
+    margin-bottom: 5vh;
     padding: 2vh;
 
 }
@@ -304,8 +325,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 52vh;
+    height: auto;
     width: 100%;
+    padding: 3vh;
     font-size: 1.8vh;
     color: #000;
     text-align: center;
@@ -317,14 +339,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
-    width: 95%;
-    gap: 0;
-    position: absolute;
+    width: 65%;
+    gap: 3vh;
+    position: unset;
     z-index: 10;
-    top: 40vh;
+    top: 35vh;
     /* background-color: #000; */
+}
+
+.laundry-services-div2-img-div-box1, 
+.laundry-services-div2-img-div-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+    height: auto;
+    width: fit-content;
+
 }
 
 .laundry-services-div2-img-div{
@@ -332,8 +366,8 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    height: max-content;
-    width: 24%;
+    height: fit-content;
+    width: 45%;
     gap: 1vh;
     background-color: #ffffff;
     border-radius: 20px;
@@ -350,14 +384,14 @@
 
 }
 .laundry-services-div2-h2{
-    font-size: 1.5vh;
+    font-size: large;
     margin: 0;
     padding: 0;
     height: fit-content;
     width: fit-content;
 }
 .laundry-services-div2-p{
-    font-size: 1.5vh;
+    font-size: large;
     /* font-weight: 500; */
     height: auto;
     width: 100%;
@@ -380,7 +414,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4.5vh;
+    font-size: x-large;
     margin: 0;
     padding: 0;
     height: auto;
@@ -388,7 +422,7 @@
     text-shadow: rgba( 0, 0, 0, 0.3) 0px 4px 6px;
 }
 .laundry-services-p{
-    font-size: 3.2vh;
+    font-size: large;
     height: auto;
     width: 80%;
 }
@@ -412,12 +446,13 @@
     align-items: center;
     flex-direction: column;
     height: auto;
-    width: 35%;
-    gap: 3vh;
+    width: 45%;
+    gap: 1vh;
+    padding: 3vh;
 }
 
 .laundry-mid-contact-section-top-text{
-    font-size: 3vh;
+    font-size: x-large;
     text-decoration: none;
     color: #fff;
 }
@@ -435,7 +470,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
     font-size: 2vh;
     text-decoration: none;
     height: auto;
@@ -443,6 +477,7 @@
     background-color: transparent;
     border-radius: 50%;
     border: #fff 1px solid;
+   
 }
 
 

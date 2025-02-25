@@ -1,4 +1,8 @@
-
+.Contact-body{
+    height: fit-content;
+    width: 100%;
+    background-color: #2b8de9;
+}
 
 .Contact-section1{
     display: flex;
@@ -326,7 +330,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: large;
     height: fit-content;
     width: 100%;
 }
@@ -340,13 +344,13 @@
 .Contact-section1-card-p{
     height: fit-content;
     width: 100%;
-    font-size: larger;
+    font-size: large;
     text-align: center;
 }
 
 
 .Contact-section1-whatsapp-link{
-    font-size: x-large;
+    font-size: large;
     color: #000;
     text-decoration: none;
     height: fit-content;
@@ -439,7 +443,7 @@
 }
 
 .Contact-section3-form-label{
-    font-size: x-large
+    font-size: larger
 }
 
 .Contact-section3-form-input{
@@ -456,7 +460,7 @@
 
 .Contact-section3-form-textarea{
     padding-left: 5vh;
-    font-size: medium;
+    font-size: large;
     padding-top: 2vw;
     height: 13vh;
     width: 100%;
@@ -469,7 +473,7 @@
     height: 8vh;
     width: 100%;
     color: #fff;
-    font-size: 2.8vh;
+    font-size: larger;
     border-radius: 10px;
     text-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px ;
     border: #2b8de9 1px solid;

@@ -16,7 +16,7 @@ function Contact(props) {
           window.location.href = `mailto:jacobonunkwo@gmail.com?subject=Message from ${name}&body=${message}`;
         };
     return (
-        <>
+        <div className='Contact-body'>
         <NavBar/>
         
         <section className='Contact-section1'> 
@@ -80,7 +80,7 @@ function Contact(props) {
 
         <Footer/>
             
-        </>
+        </div>
     );
 }
 

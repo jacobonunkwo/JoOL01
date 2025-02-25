@@ -1,3 +1,8 @@
+.cleaning-body{
+  height: fit-content;
+  width: 100%;
+  background-color: #2b8de9;
+}
 
 
 .Cleaning-services-section {
@@ -17,7 +22,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 45vh;
+  height: 35vh;
   width: 100%;
   background-color: #2b8de9;
   color: white;
@@ -27,7 +32,7 @@
 
 }
 .Cleaning-services-div1-h1{
-  font-size: x-large;
+  font-size: larger;
   margin: 0;
   padding: 0;
   text-shadow: rgba( 0, 0, 0, 0.5) 0px 4px 6px;
@@ -38,9 +43,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 195vh;
+  height: 175vh;
   width: 100%;
-  font-size: large;
+  font-size: larger;
   color: #000;
   text-align: center;
   /* margin-bottom: 10vh; */
@@ -54,11 +59,23 @@
   flex-direction: column;
   height: auto;
   width: 85%;
-  gap: 5vh;
+  gap: 3vh;
   position: absolute;
   z-index: 10;
-  top: 28vh;
+  top: 40vh;
+  padding: 0;
+
   /* background-color: #000; */
+}
+
+.Cleaning-services-div2-img-div-box1, 
+.Cleaning-services-div2-img-div-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+
 }
 
 .Cleaning-services-div2-img-div{
@@ -90,10 +107,10 @@
   width: fit-content;
 }
 .Cleaning-services-div2-p{
-  font-size: large;
+  font-size: medium;
   font-weight: 500;
   height: auto;
-  width: 100%;
+  width: fit-content;
 }
 
 .Cleaning-services-div3{
@@ -120,9 +137,9 @@
   text-shadow: rgba( 0, 0, 0, 0.3) 0px 4px 6px;
 }
 .Cleaning-services-p{
-  font-size: 1.8vh;
+  font-size: medium;
   height: fit-content;
-  width: 80%;
+  width: 85%;
 }
 
 .Cleaning-services-ul-div{
@@ -312,7 +329,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 62vh;
+    height: 30vh;
     width: 100%;
     background-color: #2b8de9;
     color: white;
@@ -332,25 +349,39 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+    height: auto;
     width: 100%;
     font-size: 1.8vh;
     color: #000;
     text-align: center;
     background-color: transparent;
+    padding: 3vh;
 }
 
 .Cleaning-services-div2-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
-    width: 85%;
-    gap: 0;
-    position: absolute;
+    width: 65%;
+    gap: 3vh;
+    position: unset;
     z-index: 10;
-    top: 37vh;
+    top: 35vh;
+  /* background-color: #000; */
+
+}
+
+.Cleaning-services-div2-img-div-box1, 
+.Cleaning-services-div2-img-div-box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+    height: auto;
+    width: fit-content;
 
 }
 
@@ -360,7 +391,7 @@
   align-items: center;
   flex-direction: column;
   height: max-content;
-  width: 24%;
+  width: 45%;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
@@ -405,7 +436,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: xx-large;
+    font-size: x-large;
     margin: 0;
     padding: 0;
     height: fit-content;
@@ -416,7 +447,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: large;
     height: fit-content;
     width: 85%;
 }
@@ -440,7 +471,7 @@
   height: auto;
   width: 20%;
   gap: 2vh;
-  font-size: larger;
+  font-size: large;
 }
 
 
