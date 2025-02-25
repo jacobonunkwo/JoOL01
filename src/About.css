@@ -85,13 +85,13 @@
     justify-content: center;
     align-items: center;
     height: 7vh;
-    width: 65%;
+    width: 70%;
     gap: 1.5vh;
     background-color: #2b8de9;
     border-radius: 30px;
     color: #fff;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: large;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px;
 }
 

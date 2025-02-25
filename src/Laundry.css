@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 35vh;
+    height: 20vh;
     width: 100%;
     background-color: #2b8de9;
     color: white;
@@ -43,12 +43,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 190vh;
+    height: auto;
     width: 100%;
     font-size: larger;
     color: #000;
     text-align: center;
-    
+    padding: 3vh 0;
 }
 
 .laundry-services-div2-div{
@@ -59,10 +59,6 @@
     height: auto;
     width: 85%;
     gap: 3vh;
-    position: absolute;
-    z-index: 10;
-    top: 40vh;
-    padding: 0;
 
 }
 
