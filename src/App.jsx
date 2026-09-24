@@ -7,6 +7,7 @@ import Cleaning from './Cleaning';
 import About from './About';
 import Contact from './Contact';
 import LoadingPage from './LoadingPage';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App(props) {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ function App(props) {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
     </BrowserRouter>
+      <SpeedInsights />
     </>
   );
 }
